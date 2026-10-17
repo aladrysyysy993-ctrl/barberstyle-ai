@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand-black: #0b0b0b;
+  --brand-gold: #D4AF37;
+}
+
+body{
+  background: linear-gradient(180deg,#fff,#f8f8f8);
+}
+
+/* small utilities */
+.btn-primary{
+  @apply bg-black text-white px-5 py-2 rounded-md shadow-md;
+}
+.btn-ghost{
+  @apply border border-gray-200 px-4 py-2 rounded-md;
+}
